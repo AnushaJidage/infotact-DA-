@@ -1,2 +1,1 @@
-# infotact-DA-
-2 months
+Data analyitic 
