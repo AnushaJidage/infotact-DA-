@@ -4,12 +4,12 @@ import plotly.express as px
 
 # ---------------- CONFIG ----------------
 st.set_page_config(page_title="MTA Dashboard", layout="wide")
-st.title("📊 multi_touch_attribution_dataset_cleaned .csv")
+st.title("📊 multi_touch_attribution_dataset_cleaned (2).csv")
 
 # ---------------- LOAD DATA ----------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("multi_touch_attribution_dataset_cleaned .csv")
+    df = pd.read_csv("multi_touch_attribution_dataset_cleaned (2) .csv")
     df["event_timestamp_utc"] = pd.to_datetime(df["event_timestamp_utc"], errors="coerce")
     df["event_date"] = pd.to_datetime(df["event_date"], errors="coerce")
     return df
