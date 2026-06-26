@@ -13,7 +13,7 @@ from google.colab import files
 
 uploaded = files.upload()
 
-df = pd.read_csv("multi_touch_attribution_dataset_cleaned (2).csv")
+df = pd.read_csv("multi_touch_attribution_dataset_cleaned .csv")
 
 df.head()
 
