@@ -24,12 +24,10 @@ print("Attributed Conversions =", attributed_conversions)
 
 ROAS = attributed_revenue / total_spend
 
-roas = attributed_revenue / total_spend
-
 print("ROAS =", round(roas,2))
 
 CAC = total_spend / attributed_conversions
 
-cac = total_spend / attributed_conversions
+
 
 
