@@ -37,8 +37,3 @@ Task Deployment-https://anu2005.streamlit.app/
 - Created marketing funnel, regional analysis, and channel insights  
 - Finalized dashboard structure for reporting
 
-# Month 2
-📅 Week 1 – Data Preparation & Exploratory Data Analysis (EDA)
-- Collected the dataset
-- Imported required Python libraries.
-- Loaded the transactional dataset into Google Colab.
